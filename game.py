@@ -7,8 +7,8 @@ DRONES_QTY = 5
 
 
 def main():
-    KarpovDrone.set_logger()
-    scene = SpaceField(speed=3, asteroids_count=15)
+    # KarpovDrone.set_logger()
+    scene = SpaceField(speed=3, asteroids_count=10)
     drones = [KarpovDrone() for _ in range(DRONES_QTY)]
     scene.go()
 
